@@ -1,11 +1,21 @@
+@import "partials/fonts";
 @import "partials/vars";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "partials/typo";
 @import "../../node_modules/@fontawesome/fontawesome-free/scss/fontawesome.scss";
 
 
-body.login {
-    background-image: url(images/ctulhu-page-background.jpg);
+body {
+    background-image: url(images/cthulhu-page-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.bg-trans-light {
+    background-color: $trans-light;
+}
+
+.bg-trans-dark {
+    background-color: $trans-dark;
 }

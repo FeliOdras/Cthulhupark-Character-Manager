@@ -1,0 +1,19 @@
+/*_fonts.scss */
+
+/* Traveling Typewriter */
+@font-face {
+    font-family: 'Traveling Typewriter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/travelingtypewriter.eot');
+    /* IE9 Compat Modes */
+    src: local('Traveling Typewriter'), local('Traveling-Typewriter-Regular'),
+        url('../fonts/travelingtypewriter.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/travelingtypewriter.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/travelingtypewriter.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/travelingtypewriter.svg#TravelingTypewriter') format('svg');
+    /* Legacy iOS */
+}
