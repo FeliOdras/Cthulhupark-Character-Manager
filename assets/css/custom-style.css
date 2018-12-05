@@ -9,6 +9,16 @@
   src: local("Traveling Typewriter"), local("Traveling-Typewriter-Regular"), url("../fonts/travelingtypewriter.woff2") format("woff2"), url("../fonts/travelingtypewriter.woff") format("woff"), url("../fonts/travelingtypewriter.ttf") format("truetype"), url("../fonts/travelingtypewriter.svg#TravelingTypewriter") format("svg");
   /* Legacy iOS */ }
 
+/* Headliner No. 45 */
+@font-face {
+  font-family: 'Headliner 45';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/headliner-no.45.eot");
+  /* IE9 Compat Modes */
+  src: local("Headliner No 45"), local("Headliner-No-45"), url("../fonts/headliner-no.45.woff2") format("woff2"), url("../fonts/headliner-no.45.woff") format("woff"), url("../fonts/headliner-no.45.ttf") format("truetype"), url("../fonts/headliner-no.45.svg#HeadlinerNo45") format("svg");
+  /* Legacy iOS */ }
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -10293,6 +10303,9 @@ readers do not read off random characters that represent icons */
 
 .uc {
   text-transform: uppercase; }
+
+.headline {
+  font-family: 'Headliner 45', sans-serif; }
 
 body {
   background-image: url(images/cthulhu-page-background.jpg);

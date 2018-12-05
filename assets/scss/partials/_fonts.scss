@@ -17,3 +17,21 @@
         url('../fonts/travelingtypewriter.svg#TravelingTypewriter') format('svg');
     /* Legacy iOS */
 }
+
+/* Headliner No. 45 */
+@font-face {
+    font-family: 'Headliner 45';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/headliner-no.45.eot');
+    /* IE9 Compat Modes */
+    src: local('Headliner No 45'), local('Headliner-No-45'),
+        url('../fonts/headliner-no.45.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/headliner-no.45.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/headliner-no.45.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/headliner-no.45.svg#HeadlinerNo45') format('svg');
+    /* Legacy iOS */
+}
