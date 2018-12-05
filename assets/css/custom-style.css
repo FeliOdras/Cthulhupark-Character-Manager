@@ -10319,3 +10319,16 @@ body {
 
 .bg-trans-dark {
   background-color: rgba(0, 0, 0, 0.5); }
+
+#mainNavigation a {
+  color: #394a3e; }
+  #mainNavigation a:hover {
+    color: #DFCDC3;
+    background-color: #394a3e; }
+
+.titleSection .navbar-brand {
+  white-space: normal;
+  max-width: 75%; }
+  @media screen and (max-width: 576px) {
+    .titleSection .navbar-brand .h1 {
+      font-size: 2rem; } }

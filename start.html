@@ -9,15 +9,38 @@
     <link rel="stylesheet" href="assets/css/custom-style.css" type="text/css" />
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <header class="mainHeader sticky-top bg-dark navbar navbar-expand-lg">
-        <section class="titleSection container">
-            <h1 class="text-secondary headline">Cthulhupark Character Manager</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation"
-                aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="collapse navbar-collapse" id="mainNavigation">
-                <ul class="navbar" </nav> </section> </header> </body> </html>
+    <header class="bg-dark mainHeader sticky-top">
+        <section class="titleSection">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand text-secondary headline col-md-6" href="index.html" class="border-0"><span class="h1">Cthulhupark
+                        Character Manager</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation"
+                    aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-light px-2" id="mainNavigation">
+                    <ul class="navbar-nav mr-auto justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="start.html">Start</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="playerChars.html">Player Characters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="NPCs.html">NPCs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="create.html">New Character</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+</body>
+
+</html>
