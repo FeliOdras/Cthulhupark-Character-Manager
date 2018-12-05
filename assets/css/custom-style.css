@@ -10291,6 +10291,9 @@ readers do not read off random characters that represent icons */
 .btn {
   white-space: normal; }
 
+.uc {
+  text-transform: uppercase; }
+
 body {
   background-image: url(images/cthulhu-page-background.jpg);
   background-repeat: no-repeat;
