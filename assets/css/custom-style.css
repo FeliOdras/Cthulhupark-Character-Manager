@@ -10295,7 +10295,8 @@ body {
   background-image: url(images/cthulhu-page-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  background-position-x: right; }
 
 .bg-trans-light {
   background-color: rgba(255, 255, 255, 0.5); }
