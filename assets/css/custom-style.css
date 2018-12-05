@@ -10288,6 +10288,9 @@ readers do not read off random characters that represent icons */
   position: static;
   width: auto; }
 
+.btn {
+  white-space: normal; }
+
 body {
   background-image: url(images/cthulhu-page-background.jpg);
   background-repeat: no-repeat;
