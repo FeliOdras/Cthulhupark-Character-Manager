@@ -1,0 +1,23 @@
+{
+  "name": "cthulhuparkcharmanager",
+  "version": "1.0.0",
+  "description": "Character Manager to manage and create characters for Call of Cthulhu RPG",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cthulhu",
+    "rpg",
+    "material-ui",
+    "html"
+  ],
+  "author": "Ariane \"odras\" Feldmann",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.6.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
+    "@fortawesome/fontawesome-free": "^5.5.0"
+  }
+}
