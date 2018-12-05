@@ -9,15 +9,15 @@
   "keywords": [
     "cthulhu",
     "rpg",
-    "material-ui",
+    "bootstrap 4",
     "html"
   ],
   "author": "Ariane \"odras\" Feldmann",
   "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^3.6.1",
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "bootstrap": "^4.1.3",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.6",
-    "@fortawesome/fontawesome-free": "^5.5.0"
+    "popper.js": "^1.14.6"
   }
 }
