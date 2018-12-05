@@ -1,3 +1,11 @@
 @import "partials/vars";
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"
+@import "../../node_modules/@fontawesome/fontawesome-free/scss/fontawesome.scss";
+
+
+body.login {
+    background-image: url(images/ctulhu-page-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

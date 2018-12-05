@@ -10276,3 +10276,9 @@ readers do not read off random characters that represent icons */
   overflow: visible;
   position: static;
   width: auto; }
+
+body.login {
+  background-image: url(images/ctulhu-page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
