@@ -10320,6 +10320,14 @@ body {
 .bg-trans-dark {
   background-color: rgba(0, 0, 0, 0.5); }
 
+/*Start selectPC */
+#selectPC figure {
+  flex: 0 1 200px; }
+
+#selectPC img {
+  width: 100%;
+  max-width: 230px; }
+
 #mainNavigation a {
   color: #394a3e; }
   #mainNavigation a:hover {
