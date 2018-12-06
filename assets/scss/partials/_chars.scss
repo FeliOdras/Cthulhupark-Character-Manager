@@ -1,0 +1,9 @@
+.charactersheet {
+    td {
+        &.max {
+            border: 1px solid darken($secondary, 15);
+        }
+
+
+    }
+}

@@ -10337,6 +10337,9 @@ readers do not read off random characters that represent icons */
 .headline {
   font-family: 'Headline', sans-serif; }
 
+.label {
+  font-weight: bold; }
+
 body {
   background-image: url(images/cthulhu-page-background.jpg);
   background-repeat: no-repeat;
@@ -10346,13 +10349,19 @@ body {
   background-attachment: fixed; }
 
 .bg-trans-light {
-  background-color: rgba(255, 255, 255, 0.5); }
+  background-color: rgba(255, 255, 255, 0.8); }
 
 .bg-trans-dark {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .text-black {
   color: #000; }
+
+.charactersheet td.max {
+  border: 1px solid #c4a391; }
+
+.w-33 {
+  width: 33%; }
 
 img {
   max-width: 100%; }
