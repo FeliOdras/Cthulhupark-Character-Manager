@@ -4,29 +4,10 @@
 @import "../../node_modules/@fontawesome/fontawesome-free/scss/fontawesome.scss";
 @import "partials/typo";
 @import "partials/backgrounds";
-@import "partials/sections";
+@import "partials/colors";
+@import "partials/chars";
 
-#mainNavigation {
-    a {
-        color: $primary;
 
-        &:hover {
-            color: $secondary;
-            background-color: $primary;
-        }
-    }
-}
-
-.titleSection {
-    .navbar-brand {
-        white-space: normal;
-        max-width: 75%;
-
-        .h1 {
-
-            @media screen and (max-width: 576px) {
-                font-size: 2rem;
-            }
-        }
-    }
+img {
+    max-width: 100%;
 }

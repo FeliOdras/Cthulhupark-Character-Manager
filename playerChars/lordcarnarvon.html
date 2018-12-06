@@ -12,29 +12,35 @@
     <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="characterSheet">
+<body>
     <header class="bg-dark mainHeader sticky-top">
         <section class="titleSection">
-            <nav class="navbar navbar-dark">
-                <a class="text-secondary d-block navbar-brand" href="start.html" class="border-0"><img src="assets/images/elder_sign_cthulhupark_logo.png"
-                        alt="Cthulhupark Charakter Manager" /> Cthulhupark Character Manager</a>
+            <nav class="navbar navbar-dark navbar-expand-lg justify-content-between">
+                <a class="text-secondary d-block navbar-brand headline" href="start.html" class="border-0"> Cthulhupark
+                    Character&nbsp;Manager</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation"
                     aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse bg-light px-2" id="mainNavigation">
-                    <ul class="navbar-nav mr-auto justify-content-end">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../start.html">Start</a>
+                <div class="collapse navbar-collapse bg-trans-dark px-2 col-lg-6" id="mainNavigation">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="start.html">Start</a>
+                        </li>
+                        <li class="nav-item  active">
+                            <a class="nav-link dropdown-toggle text-light" href="playerChars/" id="navPCDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Player Characters</a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-light active" href="playerChars/lordcarnarvon.html">Lord
+                                    Carnarvon</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../playerChars.html">Player Characters</a>
+                            <a class="nav-link text-light" href="nonPlayerChars/">NPCs</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../NPCs.html">NPCs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../create.html">New Character</a>
+                        <li class="
+                                        nav-item">
+                            <a class="nav-link text-light" href="create.html">New Character</a>
                         </li>
                     </ul>
                 </div>
@@ -42,8 +48,31 @@
         </section>
     </header>
     <main class="container text-secondary py-5">
-
-
+        <article class="charactersheet bg-trans-light text-black py-2 px-4">
+            <h2 class="headline text-primary">Lord Carnarvon</h2>
+            <div class="row mx-1">
+                <section class="charProfilePicture col-lg-3 col-md-5 col-sm-12">
+                    <img src="../assets/images/ld_carnarvon.png" alt="Lord Carnarvon" class="w-100" />
+                </section>
+                <section class="charDescription col-lg-9 col-md-7 col-sm-12 bg-trans-light py-2 px-3">
+                    <p class="headline">George Edward Stanhope Molyneux Herbert, 5. Earl of Carnarvon</p>
+                    <p><em>Lord, adventurer, round-the-world yachtsman, photographer, car maniac, scholar </em></p>
+                    <a class="btn btn-primary text-secondary w-100 headline" data-toggle="collapse" href="#charDescDetails"
+                        role="button" aria-expanded="false" aria-controls="charDescDetails">More about Lord Carnarvon</a>
+                    <div class="collapse" id="charDescDetails">
+                        <p>Born on June 26th of 1866 in Highclere Castle he is part of the anglo-welsh dynasty Herbert
+                            and
+                            can look back on ancients back to King Edward III. and King Henry VII. As the only heir of
+                            his
+                            father Henry Herbert, 4th Earl of Carnarvon, he also wears the courtesy title Lord
+                            Porchester
+                            and was called "Porchy" by his family<br />
+                            Tought by home teachers he was already able at the age of ten to talk French to his mother
+                            and his educators</p>
+                    </div>
+                </section>
+            </div>
+        </article>
     </main>
 </body>
 

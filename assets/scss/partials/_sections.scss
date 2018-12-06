@@ -1,3 +1,28 @@
+/*Title section */
+
+.titleSection {
+    .navbar-brand {
+        white-space: normal;
+    }
+}
+
+/* mainNavigation */
+
+#mainNavigation {
+    a {
+        color: $primary;
+
+        &:hover {
+            color: $secondary;
+            background-color: $primary;
+        }
+    }
+
+    .active {
+        background-color: $primary;
+    }
+}
+
 /*Start selectPC */
 
 #startSelectChar {
