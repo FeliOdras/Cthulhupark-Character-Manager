@@ -1,9 +1,12 @@
 .charactersheet {
     td {
         &.max {
-            border: 1px solid darken($secondary, 15);
+            border: 1px solid darken($light, 15);
         }
 
+        &.current {
+            background-color: darken($light, 5);
+        }
 
     }
 }

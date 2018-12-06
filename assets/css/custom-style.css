@@ -10358,7 +10358,10 @@ body {
   color: #000; }
 
 .charactersheet td.max {
-  border: 1px solid #c4a391; }
+  border: 1px solid #d6bfb2; }
+
+.charactersheet td.current {
+  background-color: #e8dbd4; }
 
 .w-33 {
   width: 33%; }
