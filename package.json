@@ -1,5 +1,5 @@
 {
-  "name": "cthulhuparkcharmanager",
+  "name": "cpcm",
   "version": "1.0.0",
   "description": "Character Manager to manage and create characters for Call of Cthulhu RPG",
   "main": "index.html",
