@@ -15,25 +15,26 @@
 <body>
     <header class="bg-dark mainHeader sticky-top">
         <section class="titleSection">
-            <nav class="navbar navbar-dark">
-                <a class="text-secondary d-block navbar-brand" href="start.html" class="border-0"><img src="assets/images/elder_sign_cthulhupark_logo.png"
+            <nav class="navbar navbar-dark navbar-expand-lg justify-content-between">
+                <a class="text-secondary d-block navbar-brand headline" href="start.html" class="border-0"><img src="assets/images/elder_sign_cthulhupark_logo.png"
                         alt="Cthulhupark Charakter Manager" /> Cthulhupark Character Manager</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation"
                     aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse bg-light px-2" id="mainNavigation">
-                    <ul class="navbar-nav mr-auto justify-content-end">
+                <div class="collapse navbar-collapse bg-light px-2 col-lg-6" id="mainNavigation">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="start.html">Start</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="playerChars.html">Player Characters</a>
+                            <a class="nav-link" href="playerChars/">Player Characters</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="NPCs.html">NPCs</a>
+                            <a class="nav-link" href="nonPlayerChars/">NPCs</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="
+                                nav-item">
                             <a class="nav-link" href="create.html">New Character</a>
                         </li>
                     </ul>
@@ -43,9 +44,9 @@
     </header>
     <main class="container text-secondary py-5">
         <section id="startSelectChar">
-            <a class="btn btn-primary w-100 my-2" data-toggle="collapse" href="#selectPC" role="button" aria-expanded="false"
-                aria-controls="selectPC">Select
-                Player Character</a>
+            <a class="btn btn-primary w-100 my-2 headline text-light" data-toggle="collapse" href="#selectPC" role="button"
+                aria-expanded="false" aria-controls="selectPC">Select
+                Active Player Character</a>
             <article id="selectPC" class="collapse ">
                 <div class="bg-trans-dark d-flex flex-wrap p-3 justify-content-around text-center">
                     <figure class="m-2">
@@ -98,8 +99,8 @@
                     </figure>
                 </div>
             </article>
-            <a class="btn btn-primary w-100 my-2" data-toggle="collapse" href="#selectNPC" role="button" aria-expanded="false"
-                aria-controls="selectNPC">Select
+            <a class="btn btn-primary w-100 my-2 headline text-light" data-toggle="collapse" href="#selectNPC" role="button"
+                aria-expanded="false" aria-controls="selectNPC">Select
                 Non-Player Character
             </a>
             <article id="selectNPC" class="collapse">
@@ -112,6 +113,9 @@
                     </figure>
                 </div>
             </article>
+            <a class="btn btn-primary w-100 my-2 headline text-light" href="create.html">
+                Create new Character
+            </a>
         </section>
     </main>
 </body>

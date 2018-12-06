@@ -9,9 +9,39 @@
   src: local("Traveling Typewriter"), local("Traveling-Typewriter-Regular"), url("../fonts/travelingtypewriter.woff2") format("woff2"), url("../fonts/travelingtypewriter.woff") format("woff"), url("../fonts/travelingtypewriter.ttf") format("truetype"), url("../fonts/travelingtypewriter.svg#TravelingTypewriter") format("svg");
   /* Legacy iOS */ }
 
-/* Headliner No. 45 */
+/* Headline Font */
+/* cinzel-regular - latin */
 @font-face {
-  font-family: 'Headliner 45';
+  font-family: 'Headline';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/cinzel-v7-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Cinzel Regular"), local("Cinzel-Regular"), url("../fonts/cinzel-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/cinzel-v7-latin-regular.woff2") format("woff2"), url("../fonts/cinzel-v7-latin-regular.woff") format("woff"), url("../fonts/cinzel-v7-latin-regular.ttf") format("truetype"), url("../fonts/cinzel-v7-latin-regular.svg#Cinzel") format("svg");
+  /* Legacy iOS */ }
+
+/* cinzel-700 - latin */
+@font-face {
+  font-family: 'Headline';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/cinzel-v7-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Cinzel Bold"), local("Cinzel-Bold"), url("../fonts/cinzel-v7-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/cinzel-v7-latin-700.woff2") format("woff2"), url("../fonts/cinzel-v7-latin-700.woff") format("woff"), url("../fonts/cinzel-v7-latin-700.ttf") format("truetype"), url("../fonts/cinzel-v7-latin-700.svg#Cinzel") format("svg");
+  /* Legacy iOS */ }
+
+/* cinzel-900 - latin */
+@font-face {
+  font-family: 'Headline';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/cinzel-v7-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local("Cinzel Black"), local("Cinzel-Black"), url("../fonts/cinzel-v7-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/cinzel-v7-latin-900.woff2") format("woff2"), url("../fonts/cinzel-v7-latin-900.woff") format("woff"), url("../fonts/cinzel-v7-latin-900.ttf") format("truetype"), url("../fonts/cinzel-v7-latin-900.svg#Cinzel") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'Headline';
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/headliner-no.45.eot");
@@ -10305,7 +10335,7 @@ readers do not read off random characters that represent icons */
   text-transform: uppercase; }
 
 .headline {
-  font-family: 'Headliner 45', sans-serif; }
+  font-family: 'Headline', sans-serif; }
 
 body {
   background-image: url(images/cthulhu-page-background.jpg);
@@ -10322,10 +10352,10 @@ body {
   background-color: rgba(0, 0, 0, 0.5); }
 
 /*Start selectPC */
-#selectPC figure {
+#startSelectChar figure {
   flex: 0 0 180px; }
 
-#selectPC img {
+#startSelectChar img {
   width: 100%; }
 
 #mainNavigation a {
