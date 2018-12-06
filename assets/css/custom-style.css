@@ -10328,6 +10328,27 @@ readers do not read off random characters that represent icons */
   position: static;
   width: auto; }
 
+/*Title section */
+.titleSection .navbar-brand {
+  white-space: normal; }
+
+/* mainNavigation */
+#mainNavigation a {
+  color: #394a3e; }
+  #mainNavigation a:hover {
+    color: #DFCDC3;
+    background-color: #394a3e; }
+
+#mainNavigation .active {
+  background-color: #394a3e; }
+
+/*Start selectPC */
+#startSelectChar figure {
+  width: 180px; }
+
+#startSelectChar img {
+  width: 100%; }
+
 .btn {
   white-space: normal; }
 
