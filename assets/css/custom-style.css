@@ -10312,7 +10312,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  background-position-x: right; }
+  background-position-x: right;
+  background-attachment: fixed; }
 
 .bg-trans-light {
   background-color: rgba(255, 255, 255, 0.5); }
@@ -10322,11 +10323,10 @@ body {
 
 /*Start selectPC */
 #selectPC figure {
-  flex: 0 1 200px; }
+  flex: 0 0 180px; }
 
 #selectPC img {
-  width: 100%;
-  max-width: 230px; }
+  width: 100%; }
 
 #mainNavigation a {
   color: #394a3e; }
