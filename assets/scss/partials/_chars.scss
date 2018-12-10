@@ -7,6 +7,13 @@
         &.current {
             background-color: darken($light, 5);
         }
+    }
 
+    table {
+        &.tableSanity {
+            td {
+                padding: 0;
+            }
+        }
     }
 }

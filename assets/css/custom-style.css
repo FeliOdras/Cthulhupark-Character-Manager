@@ -10387,6 +10387,9 @@ body {
 .charactersheet td.current {
   background-color: #e8dbd4; }
 
+.charactersheet table.tableSanity td {
+  padding: 0; }
+
 * {
   box-sizing: border-box; }
 
