@@ -10361,6 +10361,9 @@ readers do not read off random characters that represent icons */
 .label {
   font-weight: bold; }
 
+.charAttributes small {
+  line-height: 120%; }
+
 body {
   background-image: url(images/cthulhu-page-background.jpg);
   background-repeat: no-repeat;
