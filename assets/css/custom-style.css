@@ -10401,6 +10401,10 @@ body {
 * {
   box-sizing: border-box; }
 
+main {
+  max-width: 960px;
+  margin: auto; }
+
 .w-33 {
   width: 33%; }
 
