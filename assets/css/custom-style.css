@@ -10384,6 +10384,9 @@ body {
 .charactersheet td.current {
   background-color: #e8dbd4; }
 
+* {
+  box-sizing: border-box; }
+
 .w-33 {
   width: 33%; }
 

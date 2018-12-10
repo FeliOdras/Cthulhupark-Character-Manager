@@ -8,6 +8,10 @@
 @import "partials/colors";
 @import "partials/chars";
 
+* {
+    box-sizing: border-box;
+}
+
 .w-33 {
     width: 33%;
 }
