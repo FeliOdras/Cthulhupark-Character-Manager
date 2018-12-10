@@ -26,11 +26,9 @@
 /*Start selectPC */
 
 #startSelectChar {
-    figure {
-        width: 180px;
-    }
 
     img {
-        width: 100%;
+        max-width: 150px;
+        width:100%;
     }
 }
