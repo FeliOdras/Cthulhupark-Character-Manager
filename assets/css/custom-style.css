@@ -10356,7 +10356,8 @@ readers do not read off random characters that represent icons */
   text-transform: uppercase; }
 
 .headline {
-  font-family: 'Headline', sans-serif; }
+  font-family: 'Headline', sans-serif;
+  font-weight: bold; }
 
 .label {
   font-weight: bold; }
@@ -10387,8 +10388,15 @@ body {
 .charactersheet td.current {
   background-color: #e8dbd4; }
 
-.charactersheet table.tableSanity td {
+.charactersheet table.no-padding td {
   padding: 0; }
+  @media screen and (max-width: 768px) {
+    .charactersheet table.no-padding td {
+      padding: 0 10px; } }
+
+@media screen and (max-width: 768px) {
+  .charactersheet table.no-padding.tableSanity td {
+    padding: 0; } }
 
 * {
   box-sizing: border-box; }

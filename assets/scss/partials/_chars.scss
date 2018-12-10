@@ -10,9 +10,21 @@
     }
 
     table {
-        &.tableSanity {
+        &.no-padding {
             td {
                 padding: 0;
+
+                @media screen and (max-width: 768px) {
+                    padding: 0 10px;
+                }
+            }
+
+            &.tableSanity {
+                td {
+                    @media screen and (max-width: 768px) {
+                        padding: 0;
+                    }
+                }
             }
         }
     }
