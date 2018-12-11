@@ -115,7 +115,8 @@
                     </div>
                 </section>
             </div>
-            <div class="d-flex justify-content-md-between flex-wrap border-bottom border-top border-primary my-3 flex-sm-column flex-md-row">
+            <div class="d-flex justify-content-md-between flex-wrap border-bottom border-top border-primary my-3 flex-sm-column flex-md-row"
+                id="charBasics">
                 <section class="charDescGen charDescAge flex-wrap d-flex px-md-4 justify-content-md-start justify-content-sm-between pt-1 col-md-4">
                     <div class="label px-1">Age: </div>
                     <div class="content px-1 flex-grow-sm-1">56 (1921)</div>
@@ -444,7 +445,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="charSkills page-break-before">
+            <section class="charSkills page-break-before" id="charSkillsGen">
                 <h2 class="headline h6">Skills (general)</h2>
                 <table class="tableSkillsGeneral table small table-light table-striped no-padding">
                     <thead>
@@ -708,8 +709,8 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="d-lg-flex">
-                    <div class="skillTable skillFight col-12 col-lg-8">
+                <div class="d-lg-flex" id="charSkillsFLS">
+                    <div class="skillTable skillFight col-12 col-lg-8 p-0 pr-lg-3">
                         <h2 class="headline h6">Skills (Fighting)</h2>
                         <p class="headline small">Melee</p>
                         <table class="tableSkillsFight table table-light table-striped small">
@@ -783,7 +784,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="skillTable skillLangMagic col-12 col-lg-4 page-break-before">
+                    <div class="skillTable skillLangMagic col-12 col-lg-4 page-break-before p-0 pl-lg-3">
                         <h2 class="headline h6">Language skills</h2>
                         <table class="table table-light table-striped small">
                             <tr class="headline">
@@ -873,5 +874,58 @@
                     </div>
                 </div>
             </section>
-            <section class="charEquipment">
-                < </section> </article> </main> </body> </html>
+            <section class="charEquipment mb-5" id="charEquipment">
+                <h2 class="headline h6">Equipment</h2>
+                <div class=" d-flex">
+                    <div class="location border-primary border p-2 mx-1 col-lg-4 col-md-6 col-12" id="HighclereCastle">
+                        <h3 class="headline h6 small">Highclere Castle (Hampshire)</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex ad error aliquam
+                                voluptates earum quas eos tenetur alias. Excepturi aperiam vero rerum illum officiis
+                                sint, architecto eos itaque modi.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, architecto velit
+                                corporis quibusdam voluptas non maxime suscipit error maiores necessitatibus, vel
+                                placeat ut minus aliquid. Exercitationem, et. Sapiente, recusandae ullam!</li>
+                        </ul>
+                    </div>
+                    <div class="location border-primary border p-2 mx-1 col-lg-4 col-md-6 col-12" id="HighclereCastle">
+                        <h3 class="headline h6 small">Halton House (London)</h3>
+                        <ul>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quod at velit quibusdam
+                                ea corporis magnam quae obcaecati earum! Quae illum laboriosam esse ea voluptates
+                                corporis hic impedit! Ullam, excepturi.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur atque
+                                alias iusto totam, ipsam ex vel animi vitae iure incidunt. Temporibus nihil ducimus ut
+                                facilis vero autem assumenda. Nulla.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+        </article>
+    </main>
+    <footer class="fixed-bottom text-center text-light">
+        <nav>
+            <div class="navbar navbar-nav navbar-dark flex-row justify-content-center">
+                <a class="nav-item nav-link p-1 mx-2 border rounded-circle bg-primary" href="#charBasics"><img class="text-secondary"
+                        src="../assets/images/002-avatar.svg" width="32" /></a>
+                <a class="nav-item nav-link p-1 mx-2 border rounded-circle bg-primary" href="#charSkillsGen"><img class="text-secondary"
+                        src="../assets/images/003-skill.svg" width="32" /></a>
+                <a class="nav-item nav-link p-1 mx-2 border rounded-circle bg-primary" href="#charSkillsFLS"><img class="text-secondary"
+                        src="../assets/images/001-gangster.svg" width="32" /></a>
+                <a class="nav-item nav-link p-1 mx-2 border rounded-circle bg-primary" href="#charEquipment"><img class="text-secondary"
+                        src="../assets/images/004-backpack.svg" width="32" /></a>
+            </div>
+        </nav>
+        <div class="small cedits">
+            <p class="small m-0 bg-primary">Icons by <a href="https://www.flaticon.com/authors/freepik" target="_blank">Freepik</a>,
+                <a href="https://www.flaticon.com/authors/srip" target="_blank">srip</a>, <a href="https://www.flaticon.com/authors/itim2101"
+                    target="_blank">itim2101</a>, <a href="https://www.flaticon.com/authors/smartline" target="_blank">Smartline</a>
+                at <a href="https://www.flaticon.com/">Flaticon.com</a></p>
+        </div>
+        </nav>
+
+    </footer>
+</body>
+
+</html>

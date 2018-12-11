@@ -10377,6 +10377,9 @@ body {
 .bg-trans-dark {
   background-color: rgba(0, 0, 0, 0.5); }
 
+.bg-trans-primary {
+  background-color: rgba(57, 74, 62, 0.85); }
+
 .text-black {
   color: #000; }
 
